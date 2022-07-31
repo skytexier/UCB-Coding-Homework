@@ -1,7 +1,7 @@
-# first-day-repo
+# Homework Repo
 
 ## Description
-- This is a repo for our first week of coding boot camp and the in class/homework assignments tasked to us.
+- This is a repo built during our first week, it is used to store files for homework turn ins!
 
 ## Installation
 - You cant. Or I mean you could try? This is a repo for HTML projects at the moment.
