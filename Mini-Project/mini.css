@@ -1,12 +1,13 @@
 .b1 {
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(255, 255, 255);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .dropdown {
     position: sticky;
     top: 0px;
-    width: auto;
+    width: 99%;
+    border: solid 10px rgb(62, 65, 224);
 }
 
 .u1 {
@@ -14,13 +15,14 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(108, 143, 240);
+    background-color: rgb(108, 209, 240);
     color: rgb(0, 0, 0);
 }
 
 li {
     float: left;
     border-right: 1px solid black;
+  
 }
 
 li :last-child {
@@ -31,13 +33,13 @@ li :last-child {
 li a {
     text-align: center;
     display: block;
-    color: rgb(255, 255, 255);
-    padding: 14px 16px;
+    color: rgb(0, 0, 0);
+    padding: 15px 20px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: darkgrey
+    background-color: rgb(255, 255, 255)
 }
 .head {
     position: auto;
@@ -46,7 +48,7 @@ li a:hover {
     background-color: rgb(76, 174, 230);
     height: auto;
     width: 99%;
-    border: 10px solid rgb(253, 253, 253);
+    border: 10px solid rgb(0, 0, 0);
     padding: 0px, 0px;
     top: 0;
     left: 0;
@@ -91,4 +93,13 @@ legend {
 #text {
     font-size: large;
     padding-bottom: 50%;
+}
+
+button {
+    color: rgb(44, 42, 165);
+}
+
+button:hover {
+
+    background-color: aqua;
 }
